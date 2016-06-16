@@ -65,26 +65,22 @@ of those sections to manage the look and feel of the site. */
 
 }
 
-
 .course-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #fff;
-
-
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #eee;
     color: white;
 
-    background-image: url('../../course.JPG');
+    
+    background-image: url('../../joint.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
+
+
 }
 
 .contact-section {
@@ -92,4 +88,12 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background: #eee;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bungee';
+    font-size: 50px;
+}
+p, div {
+    font-family: 'Bungee';
 }
