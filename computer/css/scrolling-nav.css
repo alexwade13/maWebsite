@@ -15,16 +15,7 @@ html {
 }
 
 @media(min-width:767px) {
-    .navbar {
-        padding: 20px 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
-
-    .top-nav-collapse {
-        padding: 0;
-    }
+    
 }
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
@@ -54,12 +45,20 @@ of those sections to manage the look and feel of the site. */
     
 }
 
-.about-section {
+.college-section {
 
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #eee;
+    color: white;
+
+    background-image: url('../../Bucknell186.JPG');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
 
 
 
@@ -67,16 +66,25 @@ of those sections to manage the look and feel of the site. */
 }
 
 
-.col-lg-12 {
-    opacity: 1;
-    
-}
-
-.services-section {
+.course-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #fff;
+
+
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+    color: white;
+
+    background-image: url('../../course.JPG');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
 }
 
 .contact-section {
